@@ -274,6 +274,7 @@
 					"$(inherited)",
 					/usr/local/Cellar/glfw/3.3.2/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -287,6 +288,7 @@
 					"$(inherited)",
 					/usr/local/Cellar/glfw/3.3.2/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
