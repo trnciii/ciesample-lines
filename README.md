@@ -1,9 +1,14 @@
 ## 準備
-本章はもとの授業資料の第一回 **２次元図形を描く--線・円-- ** の前半に対応します。<br>
+本章はもとの授業資料の第一回 **２次元図形を描く--線・円--** の前半に対応します。<br>
 このリポジトリをダウンロードしたら`sample.xcodeproj` を開き、実行できるか確認してください。
 
+## 目次
+* [ウィンドウの初期化](#ウィンドウの初期化)
+* [直線を描く](#直線を描く)
+* [課題1](#課題1)
+* [課題2](#課題2)
 
-## 背景色の指定 (windows と異なります)
+## ウィンドウの初期化
 ```cpp
 void myinit(GLFWwindow** window)
 {
@@ -30,7 +35,7 @@ glClearColor(0, 1, 0, 1);
 と変更して実行してみて下さい。背景の色は緑色になるはずです。<br>
 変数の型についてはこのあとの円のところで説明します。
 
-## 直線を描く (windows と共通)
+## 直線を描く
 続いてdisplay関数内で、一本の線を描いています。
 ```cpp
 void display()
@@ -57,17 +62,22 @@ void display()
 説明④ glBegin(); はどのような図形を描くかを指定しています。 GL_LINES は線を描く命令です。
 
 説明⑤　 glVertex2f(); は描く 図形の頂点座標 を設定しています。
-描ける図形のタイプについては、[こちら](http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/surface.html#type)をご覧下さい。
+描ける図形のタイプについては、[こちら](https://github.com/trnciii/cge2020mac/blob/2_surface/README.md#%E5%9B%B3%E5%BD%A2%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%97)をご覧下さい。
 
 そして、glEnd();で定義を終わります。
 
 以下のプログラムについては、また次の章で解説することにして、 早速このプログラムに変更を加えましょう。
 
-## 課題 (windows と共通)
-windows のほうの資料に従っていろいろな図形を描いてみてください。
+## 課題1
+一本の線を引くプログラムを変更して、 下図のように平行線を書いて下さい。
 
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/parallel.gif" width="250"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/parallel_tate.gif" width="250"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/check.gif" width="250"> 
 
+## 課題2
+平行線を引くプログラムを変更して、 下図のような図形を作って下さい。
 
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/roid.gif" width="400">
 
+ヒント: まずは下図のような図形を作ります。 最終的な図形は、これを四隅に４つ描いたものです。
 
-
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/roid_1.gif" width="400">
