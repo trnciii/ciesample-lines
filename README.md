@@ -71,13 +71,13 @@ void display()
 ## 課題1
 一本の線を引くプログラムを変更して、 下図のように平行線を書いて下さい。
 
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/parallel.gif" width="250"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/parallel_tate.gif" width="250"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/check.gif" width="250"> 
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/lines/parallel.gif" width="250"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/lines/parallel_tate.gif" width="250"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/lines/check.gif" width="250"> 
 
 ## 課題2
 平行線を引くプログラムを変更して、 下図のような図形を作って下さい。
 
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/roid.gif" width="400">
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/lines/roid.gif" width="400">
 
 ヒント: まずは下図のような図形を作ります。 最終的な図形は、これを四隅に４つ描いたものです。
 
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/lines/roid_1.gif" width="400">
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/lines/roid_1.gif" width="400">
